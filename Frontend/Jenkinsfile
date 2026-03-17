@@ -1,0 +1,10 @@
+@Library('Jenkins-shared-library') _
+
+def configMap = [
+    Project  : "expense",
+    Component: "frontend",
+    GitRepo  : "https://github.com/Vamsi987dev/Expense-Frontend.git",
+    Branch   : "${env.BRANCH_NAME}"
+]
+
+nodejsCI(configMap)
