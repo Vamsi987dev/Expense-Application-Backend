@@ -5,7 +5,7 @@ def configMap = [
     Component: "backend",
     GitRepo  : "https://github.com/Vamsi987dev/Expense-Backend.git",
     Branch   : "${env.BRANCH_NAME}"
-    Aws_Region: "us-east-1",
+    Aws_Region: "us-east-1"
     Account_ID: "222634367824"
 ]
 
