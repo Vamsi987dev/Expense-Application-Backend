@@ -1,12 +1,12 @@
 @Library('Jenkins-shared-library') _
 
 def configMap = [
-    Project  : "expense",
-    Component: "backend",
-    GitRepo  : "https://github.com/Vamsi987dev/Expense-Backend.git",
-    Branch   : "${env.BRANCH_NAME}"
-    Aws_Region: "us-east-1"
-    Account_ID: "222634367824"
+    PROJECT  : "expense",
+    COMPONENT: "backend",
+    GITREPO  : "https://github.com/Vamsi987dev/Expense-Backend.git",
+    BRANCH   : "${env.BRANCH_NAME}",
+    AWS_REGION: "us-east-1",
+    ACCOUNT_ID: "222634367824"
 ]
 
 nodejsCI(configMap)
