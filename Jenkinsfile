@@ -6,7 +6,7 @@ def configMap = [
     PROJECT  : "expense",
     COMPONENT: "backend",
     GIT_URL  : "https://github.com/Vamsi987dev/Expense-Application-Backend.git",
-    BRANCH   : "${env.BRANCH_NAME}"
+    BRANCH   : "main"
     
 ]
 
